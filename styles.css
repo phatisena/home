@@ -16,7 +16,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ffe260;
+    background: #ffb560;
+    border-width: 3rem;
     z-index: 1000;
     width: 100%;
     margin: 0 auto;
@@ -34,4 +35,12 @@ body {
 .navbar__menu {
     display: flex;
     justify-content: center;
+}
+
+img.colorlogo {
+    filter: invert(100%) sepia(90%) saturate(200%) hue-rotate(180deg);
+}
+
+.navbar__link {
+    color: rgb(255, 240, 190);
 }
