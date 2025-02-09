@@ -1,1 +1,1 @@
-[phattism.github.io/home](https://www.phatisena.github.io/home)
+[phattism.github.io/home](https://phatisena.github.io/home)
