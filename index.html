@@ -1,27 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>phattism</title>
-    <link rel="icon" type="image/svg" href="svg-logo/phattism-icon.svg">
-    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phathism - home</title>
+    <!-- ไอคอนเว็บ -->
+    <link rel="icon" href="svg-logo/phattism-icon.svg" type="image/svg">
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,800,900&display=swap" rel="stylesheet">
+    <!-- ลิงค์ไฟล์ CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar" role="navigation" aria-label="Main Navigation">
-            <div class="navbar__container">
-                <img id="navbar-logo" src="svg-logo/phattism-logo-bw-b.svg" class="colorlogo" alt="phattism logo" width="100">
-                <ul class="navbar__menu">
-                    <li class="navbar__item">
-                        <img id="navbar-logo" src="svg-ulogo/youtube-brands-solid.svg" class="colorlogo" alt="youtube logo" width="20">
-                        <a id="navbar-yt-ch" href="https://www.youtube.com/channel/UChJhfABsr5yfHzB2sPtv5ig" class="navbar__link"> @phathism</a>
-                    </li>
-                </ul>
-            </div>
+    <header class="top-bar">
+        <div class="logo">
+            <img class="invert" src="svg-logo/phathism-text-logo.svg" alt="Logo">
+        </div>
+        <h1>Home</h1>
+        <nav id="h" class="header-buttons">
+            <ul>
+                <li><a href="https://www.youtube.com/channel/UChJhfABsr5yfHzB2sPtv5ig" ><img class="invert" src="svg-ulogo/youtube-brands-solid.svg" style="width: 1.55rem; height: 1.55rem;"> @phathism</a></li>
+                <li><a herf="#">ปุ่ม 2</a></li>
+                <li><a herf="#">ปุ่ม 3</a></li>
+            </ul>
         </nav>
+        <button class="menu-toggle" onclick="toggleMenu()" style="font-size: 1rem;">☰</button>
     </header>
-    <p>Welcome to my GitHub-hosted website.</p>
-    <script src="script.js"></script>
+    <aside class="side-bar" id="side-bar">
+        <nav id="v" class="navsidebar">
+            <ul id="sidemenu" class="navmenu">
+                <li><a href="#">เมนู 1</a></li>
+                <li><a href="#">เมนู 2</a></li>
+                <li><a href="#">เมนู 3</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar-buttons">
+            <button>ตัวเลือก 1</button>
+            <button>ตัวเลือก 2</button>
+            <button>ตัวเลือก 3</button>
+        </div>
+    </aside>
+    <main class="content">
+        <h2>เนื้อหา</h2>
+        <p>นี่คือเนื้อหาของคุณ</p>
+    </main>
+    <footer class="footer">
+        <p>ฟุตเตอร์</p>
+    </footer>
+    <!-- ลิงค์ไฟล์ JavaScript -->
+    <script src="script.js" defer></script>
+
 </body>
 </html>
